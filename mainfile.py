@@ -3,6 +3,7 @@ import time
 savan = Tk()
 savan.geometry("1000x500")
 savan.resizable(0,0)
+savan.title("Loading Animation By -Savan Vaghela")
 savan.configure(bg = "yellow")
 
 bb = IntVar()
@@ -48,8 +49,8 @@ def kav() :
 a = StringVar()
 a.set(". . .")
 
-l4 = Label(text = "How Many Seconds Do You Want To Show Animation :" , bg = "lightgrey").place(x = 225 , y = 0)
-e = Entry(savan ,relief = FLAT ,bg = "light grey" , textvariable = bb).place(x = 610 , y = 0 , height = 27)
+l4 = Label(text = "How Many Seconds Would You Like To Show Loading Animation :" , bg = "lightgrey").place(x = 100 , y = 0)
+e = Entry(savan ,relief = FLAT ,bg = "light grey" , textvariable = bb).place(x = 675 , y = 0 , height = 34)
 
 l = Label(textvariable = a , font = "lucida 70 " , bg = "yellow", fg = "blue")
 l.place( x = 430 , y = 140)
